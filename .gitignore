@@ -1,4 +1,4 @@
 # test
-apps/controllers/TestController.js
-apps/views/test/*.js
-apps/models/test.js
+/apps/controllers/TestController.js
+/apps/views/test/*.js
+/apps/models/test.js
