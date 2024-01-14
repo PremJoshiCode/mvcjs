@@ -1,9 +1,4 @@
-import View from "./View.js";
-
 export default class Controller{
-    constructor() {
-        this.view = new View();
-    }
     /**
      * loadModal
      * @param {string} modal

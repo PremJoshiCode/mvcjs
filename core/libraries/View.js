@@ -1,8 +1,10 @@
-export default class View{
+class View{
     load(path, data){
         path = `../../apps/views/${path}.js`;
         import(path).then((viewModule) => {
-            document.body.innerHTML += viewModule.default(data);
+            document.getElementById('_root').innerHTML = viewModule.default(data);
         });
     }
 }
+
+export default new View();
