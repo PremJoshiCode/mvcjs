@@ -1,7 +1,7 @@
 import Route from "../../core/libraries/Route.js";
 
 /* ----------------------------------- */
-Route.get('/mvcjs', ['Home','wellcome']);
+Route.get('/', ['Home','wellcome']);
 
 
 /* ----------------------------------- */

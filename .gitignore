@@ -1,0 +1,4 @@
+# test
+app/controllers/TestController.js
+app/views/test/*.js
+app/models/test.js
